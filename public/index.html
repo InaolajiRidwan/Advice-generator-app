@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="output.css">
+  
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 15px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    #btn:hover{   
+  box-shadow: 0rem 0rem 1rem #52ffa8;
+  cursor: pointer;
+}
+  </style>
+</head>
+<body class="bg-grayish-1000">
+  <div class="bg-cyan-1000 mx-4 rounded-lg mt-40 md:mx-32 xl:mx-96 lg:mx-72   ">
+    <p id="cardnumber" class="text-neon-1000 text-center pt-9 font-light  ">ADVICE #117</p>
+    <p id="advice" class="text-white text-xl text-center mx-16 py-9 font-bold ">"it is easy to sit up and take notice, whats difficult is getting up and taking action."</p>
+      <div class="justify-center flex pb-12 md:hidden"><svg width="296" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#4F5D74" d="M0 8h122v1H0zM173 8h122v1H173z"/><g transform="translate(138)" fill="#CEE3E9"><rect width="6" height="16" rx="3"/><rect x="14" width="6" height="16" rx="3"/></g></g></svg></div>
+      <div class="md:flex md:justify-center hidden lg:mx-2  md:pb-12 md:block">
+        <svg width="444" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#4F5D74" d="M0 8h196v1H0zM248 8h196v1H248z"/><g transform="translate(212)" fill="#CEE3E9"><rect width="6" height="16" rx="3"/><rect x="14" width="6" height="16" rx="3"/></g></g></svg>
+      </div>
+  </div>
+
+   <div id="dice" class="justify-center flex self-end -m-4 ">
+      <button id="btn" class="bg-neon-1000 rounded-full h-14 w-14 ps-4"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M20 0H4a4.005 4.005 0 0 0-4 4v16a4.005 4.005 0 0 0 4 4h16a4.005 4.005 0 0 0 4-4V4a4.005 4.005 0 0 0-4-4ZM7.5 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z" fill="#202733"/></svg></button>
+    </div>
+ 
+  
+  <div class="attribution lg:mt-40 xl:mt-72 md:mt-36 mt-20 text-cyan-50">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Inaolaji A. Ridwan</a>.
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
